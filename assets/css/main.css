@@ -8,6 +8,7 @@ clases generales box sizing
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: #FFF;
 }
 
 /*
@@ -25,7 +26,6 @@ header{
 	background-color: #F78E69;
 	width: 100%;
 	text-align: right;
-	color: #FFF;
   height: 10em;
 }
 
@@ -55,10 +55,6 @@ clase para la linea naranja entre secciones
   height: 2em;
 }
 
-#about{
-  background-color:  #ABE188;
-}
-
 
 #text{
   margin-top: 5em;
@@ -71,4 +67,33 @@ clase para la linea naranja entre secciones
 
 #second{
   background-image: url(../img/dos.jpg);
+}
+
+#title{
+  text-align: center;
+}
+
+#panditas{
+  padding-bottom: 4em;
+  text-align: center;
+}
+
+.responsive-img{
+  border: 0.5em solid #fff;
+}
+
+#third{
+  background-image: url(../img/tres.jpg);
+}
+
+footer{
+  background-color: #F78E69;
+  text-align: right;
+  padding-right: 3em;
+  height: 5em;
+}
+
+footer h5{
+  margin-top: 0;
+  padding-top: 1em;
 }
