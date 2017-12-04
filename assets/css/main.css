@@ -1,0 +1,74 @@
+/*
+clases generales box sizing
+*/
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+quitar margen y relleno a filas
+*/
+.row{
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+/*
+dar color, ancho y alineado del texto a la cabecera
+*/
+header{
+	background-color: #F78E69;
+	width: 100%;
+	text-align: right;
+	color: #FFF;
+  height: 10em;
+}
+
+/*
+clase para las fotos grandes
+*/
+.picture{
+  height: 30em;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+/*
+primera foto
+*/
+#first{
+  background-image: url(../img/uno.jpg);
+}
+
+/*
+clase para la linea naranja entre secciones
+*/
+.line{
+  background-color: #F78E69;
+  height: 2em;
+}
+
+#about{
+  background-color:  #ABE188;
+}
+
+
+#text{
+  margin-top: 5em;
+  margin-bottom: 5em;
+  text-align: center;
+  background-color: #F78E69;
+  color: #FFF;
+  padding: 1em;
+}
+
+#second{
+  background-image: url(../img/dos.jpg);
+}
